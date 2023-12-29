@@ -1,0 +1,53 @@
+.container {
+    padding: 0 80px;
+}
+
+.wrapper {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+}
+
+.singlewrapper {
+    width: 30%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 90%;
+    padding: 5px;
+    background-image: linear-gradient(rgb(237, 233, 233), rgba(137, 241, 237, 0.861));
+
+}
+
+.person {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content p {
+    font-size: 18px;
+
+}
+
+.buttons {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 0px 14px;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+.bookbtn {
+    padding: 0px 20px;
+    border-radius: 20px;
+}
