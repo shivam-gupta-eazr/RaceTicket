@@ -3,7 +3,6 @@
 }
 
 .wrapper {
-    height: 40vh;
     width: 100%;
     display: flex;
 }
@@ -16,7 +15,6 @@
     height: 90%;
     padding: 5px;
     background-image: linear-gradient(rgb(237, 233, 233), rgba(137, 241, 237, 0.861));
-
 }
 
 .person {
@@ -31,20 +29,17 @@
 
 .content p {
     font-size: 18px;
-
 }
 
 .buttons {
-    width: 30%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
 }
 
 .buttons button {
-    padding: 0px 14px;
-    font-size: 18px;
-    border-radius: 20px;
-
+    font-size: 20px;
+    border-radius: 25%;
 }
 
 .bookbtn {
